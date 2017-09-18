@@ -5,7 +5,9 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	char *s = "DCXXI";
-	int v = romanToInt(s);
-	return 0;
+	int nums[] = { -1, 0, 1, 2, -1, -4 };
+	int numsSize = sizeof(nums);
+	int **zeroArray;
+	int *returnSize = NULL;
+	zeroArray = threeSum(nums, numsSize, returnSize);
 }

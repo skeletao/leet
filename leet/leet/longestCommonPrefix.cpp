@@ -19,7 +19,7 @@ char* longestCommonPrefix(char** strs, int strsSize) {
 			}
 		}
 	}
-	common = malloc(sizeof(char)*len);
+	common = (char *)malloc(sizeof(char)*len);
 	for (i = 0; i < len; i++)
 	{
 		common[i] = strs[0][i];

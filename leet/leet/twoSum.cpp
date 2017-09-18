@@ -20,7 +20,7 @@ int* twoSum(int* nums, int numsSize, int target) {
 	for (i = 0; i < numsSize; i++) {
 		int rest = target - nums[i];
 		if (rest >= min && rest <= max && map[rest - min] > -1) {
-			int *ans = malloc(sizeof(int) * 2);
+			int *ans = (int *)malloc(sizeof(int) * 2);
 			ans[0] = i;
 			ans[1] = map[rest - min];
 			free(map);
