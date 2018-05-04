@@ -150,6 +150,7 @@
     <ClCompile Include="longestPalindrome.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="regularExpressionMatching.cpp" />
+    <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="romanToInt.cpp" />
     <ClCompile Include="threeSum.cpp" />
