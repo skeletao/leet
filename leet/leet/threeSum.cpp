@@ -8,38 +8,6 @@ using namespace std;
 * Note: The returned array must be malloced, assume caller calls free().
 */
 
-void swap(int *a, int *b)
-{
-	int temp = 0;
-	temp = *a;
-	*a = *b;
-	*b = temp;
-}
-
-void quicksort(int* a, int start, int end)
-{
-	int i = start - 1;
-	int j = start;
-	if (start >= end)
-	{
-		return;
-	}
-
-	while (j < end)
-	{
-		if (a[j] < a[end])
-		{
-			i++;
-			swap(a[i], a[j]);
-		}
-		j++;
-	}
-	swap(a[i + 1], a[end]);
-
-	quicksort(a, 0, i);
-	quicksort(a, i + 2, end);
-}
-
 int cmpfunc(const void * a, const void * b)
 {
 	return (*(int*)a - *(int*)b);
@@ -49,7 +17,7 @@ int** threeSum(int* nums, int numsSize, int* returnSize)
 {
 	int front, back;
 	int i = 0;
-	int **result;
+	int **result = 0;
 	int s = 0;
 
 	qsort(nums, numsSize, sizeof(int), cmpfunc);
@@ -100,6 +68,7 @@ int** threeSum(int* nums, int numsSize, int* returnSize)
 		{
 			i++;
 		}
+		i++;
 	}
 
 	*returnSize = s;

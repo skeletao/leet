@@ -152,6 +152,7 @@
     <ClCompile Include="regularExpressionMatching.cpp" />
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="romanToInt.cpp" />
+    <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="zigzagConvert.cpp" />
   </ItemGroup>

@@ -60,6 +60,9 @@
     <ClCompile Include="romanToInt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="threeSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">

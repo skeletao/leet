@@ -1,2 +1,2 @@
 #pragma once
-#include "threeSum.cpp"
+extern int** threeSum(int* nums, int numsSize, int* returnSize);
