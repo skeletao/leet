@@ -144,11 +144,13 @@
     <ClCompile Include="containerWithMostWater .cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
+    <ClCompile Include="isValid.cpp" />
     <ClCompile Include="lengthOfLongestSubstring.cpp" />
     <ClCompile Include="letterCombinations.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="longestPalindrome.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="regularExpressionMatching.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseInteger.cpp" />
