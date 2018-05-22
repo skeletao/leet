@@ -72,6 +72,12 @@
     <ClCompile Include="mergeTwoLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="generateParenthesis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mergeKLists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
