@@ -78,6 +78,15 @@
     <ClCompile Include="mergeKLists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="removeDuplicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strStr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="divide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">

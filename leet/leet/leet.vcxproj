@@ -142,6 +142,7 @@
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="containerWithMostWater .cpp" />
+    <ClCompile Include="divide.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="generateParenthesis.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
@@ -154,9 +155,11 @@
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="regularExpressionMatching.cpp" />
+    <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="romanToInt.cpp" />
+    <ClCompile Include="strStr.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="zigzagConvert.cpp" />
