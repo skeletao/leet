@@ -90,6 +90,12 @@
     <ClCompile Include="search.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="searchRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="countAndSay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
