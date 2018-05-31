@@ -96,6 +96,9 @@
     <ClCompile Include="countAndSay.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="firstMissingPositive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">

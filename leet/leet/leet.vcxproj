@@ -145,6 +145,7 @@
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="divide.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
+    <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="generateParenthesis.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isValid.cpp" />
