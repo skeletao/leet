@@ -5,11 +5,12 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	int nums[] = {1, 2, 2, 3, 4, 4, 4};
-	int *tmp1;
-	char *tmp2;
+	int nums[] = {2,0,2};
+	int tmp1;
 	int *returnSize = (int *)malloc(sizeof(int));
+	char s1[] = "aa";
+	char s2[] = "aa";
 	int n = 4;
-	tmp2 = countAndSay(n);
+	tmp1 = isMatchByWildcard3(s1, s2);
 	return 0;
 }
