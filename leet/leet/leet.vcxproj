@@ -158,6 +158,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
+    <ClCompile Include="permute.cpp" />
     <ClCompile Include="regularExpressionMatching.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />

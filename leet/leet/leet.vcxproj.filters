@@ -108,6 +108,9 @@
     <ClCompile Include="isValidSudoku.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="permute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">

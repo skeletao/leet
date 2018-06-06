@@ -5,12 +5,12 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-	int nums[] = {2,0,2};
+	int nums[] = {1, 2, 3};
 	int tmp1;
 	int *returnSize = (int *)malloc(sizeof(int));
 	char s1[] = "aa";
 	char s2[] = "aa";
 	int n = 4;
-	tmp1 = isMatchByWildcard3(s1, s2);
+	int ** res = permute(nums, sizeof(nums)/sizeof(int), returnSize);
 	return 0;
 }
