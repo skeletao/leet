@@ -7,3 +7,5 @@ extern int trap(int* height, int heightSize);
 extern bool isMatchByWildcard(char* s, char* p);
 extern bool isMatchByWildcard3(char* s, char* p);
 extern int** permute(int* nums, int numsSize, int* returnSize);
+extern void rotate(int** matrix, int matrixRowSize, int *matrixColSizes);
+

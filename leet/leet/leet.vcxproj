@@ -164,6 +164,7 @@
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseInteger.cpp" />
     <ClCompile Include="romanToInt.cpp" />
+    <ClCompile Include="rotate.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="strStr.cpp" />

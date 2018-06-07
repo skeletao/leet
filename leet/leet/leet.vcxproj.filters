@@ -111,6 +111,9 @@
     <ClCompile Include="permute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rotate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
