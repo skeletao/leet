@@ -147,6 +147,7 @@
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="generateParenthesis.cpp" />
+    <ClCompile Include="groupAnagrams.cpp" />
     <ClCompile Include="isMatchByWildcard.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isValid.cpp" />
