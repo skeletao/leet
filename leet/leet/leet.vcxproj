@@ -157,6 +157,7 @@
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="longestPalindrome.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="maxSubArray.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="myPow.cpp" />
