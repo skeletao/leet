@@ -170,6 +170,7 @@
     <ClCompile Include="rotate.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchRange.cpp" />
+    <ClCompile Include="spiralOrder.cpp" />
     <ClCompile Include="strStr.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="trap.cpp" />

@@ -123,6 +123,9 @@
     <ClCompile Include="maxSubArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="spiralOrder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
