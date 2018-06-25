@@ -10,5 +10,6 @@ extern int** permute(int* nums, int numsSize, int* returnSize);
 extern void rotate(int** matrix, int matrixRowSize, int *matrixColSizes);
 extern char*** groupAnagrams(char (*strs)[4], int strsSize, int** columnSizes, int* returnSize);
 extern int* spiralOrder(int(*matrix)[10], int matrixRowSize, int matrixColSize);
+extern bool canJump(int* nums, int numsSize);
 
 

@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="atoi.cpp" />
+    <ClCompile Include="canJump.cpp" />
     <ClCompile Include="containerWithMostWater .cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="divide.cpp" />
