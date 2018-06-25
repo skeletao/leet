@@ -177,6 +177,7 @@
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="trap.cpp" />
     <ClCompile Include="twoSum.cpp" />
+    <ClCompile Include="uniquePaths.cpp" />
     <ClCompile Include="zigzagConvert.cpp" />
   </ItemGroup>
   <ItemGroup>
