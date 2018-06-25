@@ -11,5 +11,11 @@ extern void rotate(int** matrix, int matrixRowSize, int *matrixColSizes);
 extern char*** groupAnagrams(char (*strs)[4], int strsSize, int** columnSizes, int* returnSize);
 extern int* spiralOrder(int(*matrix)[10], int matrixRowSize, int matrixColSize);
 extern bool canJump(int* nums, int numsSize);
+extern struct Interval* merge(struct Interval* intervals, int intervalsSize, int* returnSize);
+extern struct Interval {
+	int start;
+	int end;
+};
+
 
 
