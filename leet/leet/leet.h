@@ -16,6 +16,8 @@ extern struct Interval {
 	int start;
 	int end;
 };
+extern int* plusOne(int* digits, int digitsSize, int* returnSize);
+
 
 
 
