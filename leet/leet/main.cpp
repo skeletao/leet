@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 	int **columnSizes = (int **)malloc(sizeof(int *));
 
 	struct Interval	intervals[3] = { { 1, 4 }, {0, 2}, {3, 5} };
-	plusOne(nums1, sizeof(nums1) / sizeof(int), returnSize);
+	mySqrt(4);
 	return 0;
 }
 

@@ -138,6 +138,12 @@
     <ClCompile Include="plusOne.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mySqrt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="climbStairs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">

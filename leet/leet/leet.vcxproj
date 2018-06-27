@@ -142,6 +142,7 @@
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="canJump.cpp" />
+    <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="containerWithMostWater .cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="divide.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="myPow.cpp" />
+    <ClCompile Include="mySqrt.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="plusOne.cpp" />
     <ClCompile Include="regularExpressionMatching.cpp" />

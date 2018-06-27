@@ -17,6 +17,8 @@ extern struct Interval {
 	int end;
 };
 extern int* plusOne(int* digits, int digitsSize, int* returnSize);
+extern int mySqrt(int x);
+
 
 
 
