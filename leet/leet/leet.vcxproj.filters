@@ -144,6 +144,12 @@
     <ClCompile Include="climbStairs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="setZeroes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sortColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
