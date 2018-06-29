@@ -146,6 +146,7 @@
     <ClCompile Include="containerWithMostWater .cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="divide.cpp" />
+    <ClCompile Include="exist.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="generateParenthesis.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="mergeIntervals.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
+    <ClCompile Include="minWindow.cpp" />
     <ClCompile Include="myPow.cpp" />
     <ClCompile Include="mySqrt.cpp" />
     <ClCompile Include="permute.cpp" />
@@ -179,6 +181,7 @@
     <ClCompile Include="sortColors.cpp" />
     <ClCompile Include="spiralOrder.cpp" />
     <ClCompile Include="strStr.cpp" />
+    <ClCompile Include="subsets.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="trap.cpp" />
     <ClCompile Include="twoSum.cpp" />

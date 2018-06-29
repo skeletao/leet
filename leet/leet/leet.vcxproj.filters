@@ -150,6 +150,15 @@
     <ClCompile Include="sortColors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="minWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="subsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leet.h">
