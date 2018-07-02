@@ -13,7 +13,64 @@
 
 #include <iostream>
 
-bool dfs(char **board, int boardRowSize, int boardColSize, int i, int j, char* word, int dir)
+ // dfs with stack
+
+struct cordinate
+{
+	int x;
+	int y;
+};
+
+struct cordinate ss[INT8_MAX];
+int f[INT8_MAX][INT8_MAX] = { {0} };
+
+int move[][2] = { {1, 0}, {0 ,1}, {-1, 0}, {0, -1} };
+
+bool dfs2(char (*board)[2], int boardRowSize, int boardColSize, int i, int j, char* word)
+{
+	int t = 0, m = 0;
+	struct cordinate now = { i , j };
+	struct cordinate tmp = now;
+
+	if (board[i][j] != word[t])
+	{
+		return false;
+	}
+	f[i][j] = 1;
+
+	ss[t++] = now;
+	while (t > 0)
+	{
+		if (word[t] == '\0')
+		{
+			return true;
+		}
+
+		now = ss[t-1];
+
+		for (m = 0; m < 4; m++)
+		{
+			tmp.x = now.x + move[m][0];
+			tmp.y = now.y + move[m][1];
+			if (tmp.x < boardRowSize && tmp.x >= 0 && tmp.y < boardColSize && tmp.y >= 0 && board[tmp.x][tmp.y] == word[t] && f[tmp.x][tmp.y] == 0)
+			{
+				f[tmp.x][tmp.y] = 1;
+				ss[t++] = tmp;
+				break;
+			}
+		}
+
+		if (m == 4)
+		{
+			board[now.x][now.y] = 0;
+			t--;
+		}
+	}
+	return false;
+}
+
+// dfs with recursion
+bool dfs1(char **board, int boardRowSize, int boardColSize, int i, int j, char* word, int dir)
 {
 	bool flag = false;
 
@@ -29,22 +86,22 @@ bool dfs(char **board, int boardRowSize, int boardColSize, int i, int j, char* w
 
 		if (i + 1 < boardRowSize && dir != 3)
 		{
-			flag = dfs(board, boardRowSize, boardColSize, i + 1, j, word + 1, 1);
+			flag = dfs1(board, boardRowSize, boardColSize, i + 1, j, word + 1, 1);
 		}
 
 		if (!flag && j + 1 < boardColSize && dir != 4)
 		{
-			flag = dfs(board, boardRowSize, boardColSize, i, j + 1, word + 1, 2);
+			flag = dfs1(board, boardRowSize, boardColSize, i, j + 1, word + 1, 2);
 		}
 
 		if (!flag && i > 0 && dir != 1)
 		{
-			flag = dfs(board, boardRowSize, boardColSize, i - 1, j, word + 1, 3);
+			flag = dfs1(board, boardRowSize, boardColSize, i - 1, j, word + 1, 3);
 		}
 
 		if (!flag && j > 0 && dir != 2)
 		{
-			flag = dfs(board, boardRowSize, boardColSize, i, j - 1, word + 1, 4);
+			flag = dfs1(board, boardRowSize, boardColSize, i, j - 1, word + 1, 4);
 		}
 
 		board[i][j] = tmp;
@@ -60,7 +117,7 @@ bool exist(char** board, int boardRowSize, int boardColSize, char* word) {
 	{
 		for (j = 0; j < boardColSize; j++)
 		{
-			if (dfs(board, boardRowSize, boardColSize, i, j, word, 0))
+			if (dfs2((char (*)[2])board, boardRowSize, boardColSize, i, j, word))
 			{
 				return true;
 			}
