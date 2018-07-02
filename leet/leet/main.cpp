@@ -10,11 +10,13 @@ int main(int argc, char **argv)
 	char strs1[] = "ADOBECODBANC";
 	char strs2[] = "ABD";
 	char strs3[][4] = { "eat","tea","tan","ate","nat","bat" };
+	char strs4[][6] = { {'b','a','a','b','a','b'},{'a','b','a','a','a','a'},{'a','b','a','a','a','b'},{'a','b','a','b','b','a'},{'a','a','b','b','a','b'},{'a','a','b','b','b','a'},{'a','a','b','a','a','b'} };
+	char strs5[][4] = {"abc", "aed", "afg"};
+	char strs6[][2] = { "a" };
 	int *returnSize = (int *)malloc(sizeof(int));
 	int **columnSizes = (int **)malloc(sizeof(int *));
-
 	struct Interval	intervals[3] = { { 1, 4 }, {0, 2}, {3, 5} };
-	subsets(nums1, sizeof(nums1) / sizeof(int), columnSizes, returnSize);
+	exist((char **)strs6, 1, 1, "a");
 	return 0;
 }
 

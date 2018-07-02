@@ -20,6 +20,7 @@ extern int* plusOne(int* digits, int digitsSize, int* returnSize);
 extern int mySqrt(int x);
 extern char* minWindow(char* s, char* t);
 extern int** subsets(int* nums, int numsSize, int** columnSizes, int* returnSize);
+extern bool exist(char** board, int boardRowSize, int boardColSize, char* word);
 
 
 
