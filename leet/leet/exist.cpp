@@ -26,9 +26,9 @@ int f[INT8_MAX][INT8_MAX] = { {0} };
 
 int move[][2] = { {1, 0}, {0 ,1}, {-1, 0}, {0, -1} };
 
-bool dfs2(char (*board)[2], int boardRowSize, int boardColSize, int i, int j, char* word)
+bool dfs2(char (*board)[3], int boardRowSize, int boardColSize, int i, int j, char* word)
 {
-	int t = 0, m = 0;
+	int t = 0, m = 0, lastMove = 0;
 	struct cordinate now = { i , j };
 	struct cordinate tmp = now;
 
@@ -48,12 +48,13 @@ bool dfs2(char (*board)[2], int boardRowSize, int boardColSize, int i, int j, ch
 
 		now = ss[t-1];
 
-		for (m = 0; m < 4; m++)
+		for (m = f[now.x][now.y]-1; m < 4; m++)
 		{
 			tmp.x = now.x + move[m][0];
 			tmp.y = now.y + move[m][1];
 			if (tmp.x < boardRowSize && tmp.x >= 0 && tmp.y < boardColSize && tmp.y >= 0 && board[tmp.x][tmp.y] == word[t] && f[tmp.x][tmp.y] == 0)
 			{
+				f[now.x][now.y] = m + 2;
 				f[tmp.x][tmp.y] = 1;
 				ss[t++] = tmp;
 				break;
@@ -62,7 +63,7 @@ bool dfs2(char (*board)[2], int boardRowSize, int boardColSize, int i, int j, ch
 
 		if (m == 4)
 		{
-			board[now.x][now.y] = 0;
+			f[now.x][now.y] = 0;
 			t--;
 		}
 	}
@@ -117,7 +118,7 @@ bool exist(char** board, int boardRowSize, int boardColSize, char* word) {
 	{
 		for (j = 0; j < boardColSize; j++)
 		{
-			if (dfs2((char (*)[2])board, boardRowSize, boardColSize, i, j, word))
+			if (dfs2((char (*)[3])board, boardRowSize, boardColSize, i, j, word))
 			{
 				return true;
 			}
